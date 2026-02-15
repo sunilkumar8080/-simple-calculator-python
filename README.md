@@ -1,2 +1,10 @@
 # -simple-calculator-python
-A simple calculator project made using Python. It performs basic arithmetic operations like addition, subtraction, multiplication, and division.
+A=int(input("Enter first number:"))
+B=int(input("Enter second number:"))
+print("addition=",A+B)
+print("subtraction=",A-B)
+print("multiple=",A*B)
+print("division=",A/B)
+print("modulus=",A%B)
+print("floor division=",A//B)
+print("exponential=",A**B)
